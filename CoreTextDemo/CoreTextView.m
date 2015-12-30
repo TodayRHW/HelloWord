@@ -13,6 +13,7 @@
 
 - (void)drawText {
     //创建一个可变的属性字符串
+    //asldfnlsdkfjalsdkfjaldskfjlasdjf
     NSMutableAttributedString *mutableString = [[NSMutableAttributedString alloc] initWithString:@"《见与不见》你见,或者不见我,我就在那里,不悲不喜你念,或者不念我,情就在那里, 不来不去,你爱或者不爱我,爱就在那里,不增不减,你跟,或者不跟我,我的手就在你的手里, 不舍不弃,来我怀里,或者,让我住进你的心里,默然相爱,寂静喜欢"];
     // 1.1.1 设置文字颜色
     [mutableString addAttribute:(id)kCTForegroundColorAttributeName value:(id)[[UIColor redColor] CGColor] range:NSMakeRange(0, 3)];
